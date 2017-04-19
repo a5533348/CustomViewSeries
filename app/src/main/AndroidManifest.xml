@@ -28,6 +28,12 @@
         <activity android:name=".anim.view.animation.TranslateAnimActivity"/>
 
         <activity android:name=".anim.view.animation.SetAnimActivity"/>
+
+        <activity android:name=".anim.interpolator.InterpolatorActivity"/>
+
+        <activity android:name=".anim.interpolator.sample.SampleInterpolatorActivity"/>
+
+        <activity android:name=".anim.interpolator.sample.CustomInterpolatorActivity"/>
     </application>
 
 </manifest>
