@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
@@ -19,7 +19,7 @@ import static cn.xdeveloper.customviewseries.R.id.view;
 
 public class SetAnimActivity extends AppCompatActivity {
 
-    private Animation mScaleAnim;
+    private AnimationSet mAnimationSet;
     private View mView;
 
     @Override
@@ -31,12 +31,12 @@ public class SetAnimActivity extends AppCompatActivity {
         Button btn_start = (Button) findViewById(R.id.btn_start);
 
         mView = findViewById(view);
-        mScaleAnim = AnimationUtils.loadAnimation(SetAnimActivity.this, R.anim.set_anim);
+        mAnimationSet = (AnimationSet) AnimationUtils.loadAnimation(SetAnimActivity.this, R.anim.set_anim);
 
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mView.startAnimation(mScaleAnim);
+                mView.startAnimation(mAnimationSet);
             }
         });
 

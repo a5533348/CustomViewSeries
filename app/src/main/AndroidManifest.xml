@@ -17,23 +17,35 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".anim.view.ViewAnimationActivity"/>
+        <activity android:name=".anim.view.ViewAnimationActivity" />
 
-        <activity android:name=".anim.view.animation.ScaleAnimActivity"/>
+        <activity android:name=".anim.view.animation.ScaleAnimActivity" />
 
-        <activity android:name=".anim.view.animation.AlphaAnimActivity"/>
+        <activity android:name=".anim.view.animation.AlphaAnimActivity" />
 
-        <activity android:name=".anim.view.animation.RotateAnimActivity"/>
+        <activity android:name=".anim.view.animation.RotateAnimActivity" />
 
-        <activity android:name=".anim.view.animation.TranslateAnimActivity"/>
+        <activity android:name=".anim.view.animation.TranslateAnimActivity" />
 
-        <activity android:name=".anim.view.animation.SetAnimActivity"/>
+        <activity android:name=".anim.view.animation.SetAnimActivity" />
 
-        <activity android:name=".anim.interpolator.InterpolatorActivity"/>
+        <activity android:name=".anim.interpolator.InterpolatorActivity" />
 
-        <activity android:name=".anim.interpolator.sample.SampleInterpolatorActivity"/>
+        <activity android:name=".anim.interpolator.sample.SampleInterpolatorActivity" />
 
-        <activity android:name=".anim.interpolator.sample.CustomInterpolatorActivity"/>
+        <activity android:name=".anim.interpolator.sample.CustomInterpolatorActivity" />
+
+        <activity android:name=".anim.property.animator.ValueAnimatorActivity" />
+
+        <activity android:name=".anim.property.PropertyAnimatorActivity" />
+
+        <activity android:name=".anim.property.animator.ObjectAnimatorActivity" />
+
+        <activity android:name=".anim.property.animator.PropertyValuesHolderActivity" />
+
+        <activity android:name=".anim.property.animator.KeyframeActivity" />
+
+        <activity android:name=".anim.property.animator.AnimatorSetActivity" />
     </application>
 
 </manifest>

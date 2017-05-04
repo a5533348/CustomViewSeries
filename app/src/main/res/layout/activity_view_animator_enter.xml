@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_value_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ValueAnimator"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_obj_animator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ObjectAnimator"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_property_values_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PropertyValuesHolder"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_keyframe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keyframe"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_animator_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AnimatorSet"
+        android:textAllCaps="false" />
+
+</LinearLayout>

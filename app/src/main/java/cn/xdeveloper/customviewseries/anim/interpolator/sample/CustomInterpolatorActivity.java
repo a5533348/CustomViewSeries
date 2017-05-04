@@ -30,7 +30,7 @@ public class CustomInterpolatorActivity extends AppCompatActivity {
         Button btn_start = (Button) findViewById(R.id.btn_start);
 
         mView = findViewById(R.id.view);
-        mScaleAnim = AnimationUtils.loadAnimation(CustomInterpolatorActivity.this, R.anim.rotate_anim);
+        mScaleAnim = AnimationUtils.loadAnimation(CustomInterpolatorActivity.this, R.anim.translate_anim);
         mScaleAnim.setInterpolator(new SinInterpolator());
 
         btn_start.setOnClickListener(new View.OnClickListener() {

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import cn.xdeveloper.customviewseries.anim.interpolator.InterpolatorActivity;
+import cn.xdeveloper.customviewseries.anim.property.PropertyAnimatorActivity;
 import cn.xdeveloper.customviewseries.anim.view.ViewAnimationActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, ViewAnimationActivity.class));
                 break;
             case R.id.btn_property:
-
+                startActivity(new Intent(this, PropertyAnimatorActivity.class));
                 break;
             case R.id.btn_interpolator:
                 startActivity(new Intent(this, InterpolatorActivity.class));
