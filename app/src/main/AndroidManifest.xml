@@ -45,6 +45,8 @@
 
         <activity android:name=".anim.property.animator.KeyframeActivity" />
 
+        <activity android:name=".view.view1.SubmitAnimButtonActivity" />
+
         <activity android:name=".anim.property.animator.AnimatorSetActivity" />
     </application>
 

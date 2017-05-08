@@ -35,9 +35,10 @@
         android:textAllCaps="false"
         android:text="Interpolator" />
 
+
     <TextView
         android:layout_width="wrap_content"
-        android:text="-事件-"
+        android:text="-View-"
         android:textSize="15sp"
         android:layout_margin="10dp"
         android:layout_gravity="center_horizontal"
@@ -45,10 +46,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btn_touch"
+        android:id="@+id/btn_view1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
-        android:text="Touch Event" />
+        android:text="提交动画Button" />
 
 </LinearLayout>
